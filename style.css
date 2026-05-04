@@ -204,3 +204,21 @@ tr:nth-child(even) {
     border-radius: 10px;
     list-style: none;
 }
+
+body {
+    background-color: #8B0000;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #FFD700;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
