@@ -187,92 +187,16 @@ tr:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-h3 {
-    text-align: center;
-    color: red;
-    font-size: 30px;
-
+.dark-mode{
+    background-color: #121212;
+    color: white;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.dark-mode header{
+    background-color: #1e1e1e;
 }
 
-
-video {
-  max-width: 100%;
-  height: auto;
+.dark-mode .card{
+    background-color: #2b2b2b;
+    color: white;
 }
-
-
-table {
-  width: 100%;
-  overflow-x: auto;
-  display: block;
-}
-
-
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
-
-.galeria img {
-  width: 300px;
-  max-width: 100%;
-}
-
-
-form {
-  max-width: 600px;
-  margin: auto;
-}
-
-input {
-  width: 100%;
-  padding: 8px;
-}
-
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  padding: 0;
-}
-
-@media (max-width: 768px) {
-
-  h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  p {
-    font-size: 14px;
-    text-align: justify;
-    padding: 0 10px;
-  }
-
-  .galeria img {
-    width: 100%;
-  }
-
-  table {
-    font-size: 12px;
-  }
-
-  button {
-    width: 100%;
-  }
-}
-
